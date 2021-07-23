@@ -307,7 +307,7 @@ try {
 		const data = { brand, name, cost, id }
 
 
-		cardGoodImage.src = `../goods-image/${photo}`;
+		cardGoodImage.src = `./goods-image/${photo}`;
 		cardGoodImage.alt = `${brand} ${name}`;
 		cardGoodBrand.textContent = brand;
 		cardGoodTitle.textContent = name;
